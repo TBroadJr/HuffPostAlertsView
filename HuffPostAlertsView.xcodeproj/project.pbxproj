@@ -11,6 +11,10 @@
 		F60174A3297DA09E000C967D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60174A2297DA09E000C967D /* ContentView.swift */; };
 		F60174A5297DA0A1000C967D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60174A4297DA0A1000C967D /* Assets.xcassets */; };
 		F60174A8297DA0A1000C967D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60174A7297DA0A1000C967D /* Preview Assets.xcassets */; };
+		F60174B3297DD3AE000C967D /* AlertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60174B2297DD3AE000C967D /* AlertData.swift */; };
+		F60174B5297DD3CE000C967D /* NewsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60174B4297DD3CE000C967D /* NewsAlert.swift */; };
+		F60174B9297DD943000C967D /* AlertComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60174B8297DD943000C967D /* AlertComponent.swift */; };
+		F60174BB297DDDBE000C967D /* SectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60174BA297DDDBE000C967D /* SectionComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F60174A2297DA09E000C967D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F60174A4297DA0A1000C967D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60174A7297DA0A1000C967D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F60174B2297DD3AE000C967D /* AlertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertData.swift; sourceTree = "<group>"; };
+		F60174B4297DD3CE000C967D /* NewsAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAlert.swift; sourceTree = "<group>"; };
+		F60174B8297DD943000C967D /* AlertComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertComponent.swift; sourceTree = "<group>"; };
+		F60174BA297DDDBE000C967D /* SectionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				F60174A0297DA09E000C967D /* HuffPostAlertsViewApp.swift */,
-				F60174A2297DA09E000C967D /* ContentView.swift */,
+				F60174AF297DD38B000C967D /* Data */,
+				F60174AE297DD380000C967D /* Model */,
+				F60174B6297DD8E3000C967D /* View */,
+				F60174B7297DD8F0000C967D /* Components */,
 				F60174A4297DA0A1000C967D /* Assets.xcassets */,
 				F60174A6297DA0A1000C967D /* Preview Content */,
 			);
@@ -65,6 +76,39 @@
 				F60174A7297DA0A1000C967D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F60174AE297DD380000C967D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F60174B4297DD3CE000C967D /* NewsAlert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F60174AF297DD38B000C967D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F60174B2297DD3AE000C967D /* AlertData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F60174B6297DD8E3000C967D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F60174A2297DA09E000C967D /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F60174B7297DD8F0000C967D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F60174B8297DD943000C967D /* AlertComponent.swift */,
+				F60174BA297DDDBE000C967D /* SectionComponent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60174B9297DD943000C967D /* AlertComponent.swift in Sources */,
+				F60174BB297DDDBE000C967D /* SectionComponent.swift in Sources */,
 				F60174A3297DA09E000C967D /* ContentView.swift in Sources */,
+				F60174B3297DD3AE000C967D /* AlertData.swift in Sources */,
 				F60174A1297DA09E000C967D /* HuffPostAlertsViewApp.swift in Sources */,
+				F60174B5297DD3CE000C967D /* NewsAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
